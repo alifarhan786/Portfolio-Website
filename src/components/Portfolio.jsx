@@ -1,44 +1,31 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import YoutubeClone from '../assets/portfolio/YoutubeClone.jpg'
+import movieApp from '../assets/portfolio/movieApp.jpg'
+import portfolio from '../assets/portfolio/portfolio.jpg'
+
 
 
 const Portfolio = () => {
     const card = [{
         id: 1,
-        src: arrayDestruct,
-        linkDemo : "https://alifarhan786.github.io/Youtube-Clone/",
-        linkCode : "https://github.com/alifarhan786/Youtube-Clone"
+        src: movieApp,
+        linkDemo : "https://alifarhan786.github.io/Movie-App/",
+        linkCode : "https://github.com/alifarhan786/Movie-App",
+       
     },
     {
         id: 2,
-        src: installNode,
-        linkDemo : "https://alifarhan786.github.io/Movie-App/",
-        linkCode : "https://github.com/alifarhan786/Movie-App",
+        src: YoutubeClone,
+        linkDemo : "https://alifarhan786.github.io/Youtube-Clone/",
+        linkCode : "https://github.com/alifarhan786/Youtube-Clone",
     },
     {
         id: 3,
-        src: navbar,
+        src: portfolio,
         linkDemo : "",
-        linkCode : "",
+        linkCode : "https://github.com/alifarhan786/Portfolio-Website",
     },
-    {
-        id: 4,
-        src: reactParallax,
-    },
-    {
-        id: 5,
-        src: reactSmooth,
-    },
-    {
-        id: 6,
-        src: reactWeather,
-    },
-
+    
     ]
     return (
         <div  id="Portfolio" className=' pt-20 w-full  md:h-screen bg-gradient-to-b from-black to-pink-900 text-white'>
